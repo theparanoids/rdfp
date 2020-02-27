@@ -11,7 +11,7 @@ https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-rdpbcgr/5073f4ed
 
 
 ## Install
-zkg github.com/aol/rdfp
+zkg https://github.com/yahoo/rdfp
 Add "**@load ./rdfp**" to local.bro.
 
 ## How It Works
