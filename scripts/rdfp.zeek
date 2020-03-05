@@ -1,7 +1,7 @@
-// Copyright 2020, Verizon Media
-// Licensed under the terms of the Apache 2.0 license. See LICENSE file in github.com/yahoo/rdfp root directory for terms.
+# Copyright 2020, Verizon Media
+# Licensed under the terms of the Apache 2.0 license. See LICENSE file in github.com/yahoo/rdfp root directory for terms.
 
-##          RDFP = md5(verMajor;verMinor;clusterFlags;encryptionMethods;extEncMethods;channelDef)
+#          RDFP = md5(verMajor;verMinor;clusterFlags;encryptionMethods;extEncMethods;channelDef)
 
 module RDPrinting;
 
