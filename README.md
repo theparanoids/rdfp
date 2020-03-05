@@ -1,5 +1,5 @@
 # rdfp
-Zeek Remote desktop fingerprinting script based on FATT (Fingerprnt All The Things).
+Zeek Remote desktop fingerprinting script based on FATT (Fingerprint All The Things).
 https://github.com/0x4D31/fatt
 
 ## Background
@@ -16,9 +16,9 @@ Add "**@load ./rdfp**" to local.bro.
 
 ## How It Works
 
-The script will create a new log which will log the details which build the fingerprint and some additional information.  The fingerperint is created by concatenating extracted fields from different data packets.  
+The script will create a new log which will log the details which build the fingerprint and some additional information.  The fingerprint is created by concatenating extracted fields from different data packets.  
 
-First the Cleint Core Data packet is parsed and extracts the Major and Minor version of the client.  Next the Client Security Data is parsed and the Encryption Method and a list of the flags are added.  This is followied by the Client Cluster Data flags.  This is followed by the extEncryptionMethods value which is definied specifically for French locale clients.  The last group of data is the Channel Defintion options for each channel defined which provide details about the data transport.
+First the Client Core Data packet is parsed and extracts the Major and Minor version of the client.  Next the Client Security Data is parsed and the Encryption Method and a list of the flags are added.  This is followed by the Client Cluster Data flags.  This is followed by the extEncryptionMethods value which is defined specifically for French locale clients.  The last group of data is the Channel Definition options for each channel defined which provide details about the data transport.
 
 Here is an example output based on the [rdp_proprietary-encryption.pcap](https://github.com/zeek/zeek/tree/master/testing/btest/Traces/rdp) provided by Zeek.org.
 
