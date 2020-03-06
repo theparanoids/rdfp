@@ -1,6 +1,6 @@
 # rdfp
 Zeek Remote desktop fingerprinting script based on FATT (Fingerprint All The Things).
-https://github.com/0x4D31/fatt
+https://github.com/0x4D31/fatt, 
 
 ## Background
 This is the result of a collaboration with Adel K. while he was working on FATT's remote desktop fingerpinting.  This is a Zeek package to be used to fingerprint the Remote Desktop clients.
@@ -11,7 +11,7 @@ https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-rdpbcgr/5073f4ed
 
 
 ## Install
-zkg https://github.com/yahoo/rdfp
+zkg install https://github.com/yahoo/rdfp
 Add "**@load ./rdfp**" to local.bro.
 
 ## How It Works
