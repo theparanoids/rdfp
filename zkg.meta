@@ -1,2 +1,8 @@
 [package]
+credits = Jeff Atkinson <neslog@gmail.com>,
+          Copyright Verizon Media Group 2020
+
+description = The script will create a new log which will log the details which build the fingerprint and some additional information. The fingerprint is created by concatenating extracted fields from different data packets.  https://github.com/yahoo/rdfp
+
 script_dir = scripts
+
