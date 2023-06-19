@@ -39,15 +39,15 @@ event zeek_init() {
 const negproto: table[count] of string &redef;
 
 redef negproto += {
-	[0] = ["RDP"],
-	[1] = ["SSL"],
-	[2] = ["HYBRID"],
-	[3] = ["Undefined"],
-	[4] = ["RDSTLS"],
-	[5] = ["undef5"],
-	[6] = ["undef6"],
-	[7] = ["undef8"],
-	[8] = ["HYBRID-EX"],
+    [0] = "RDP",
+    [1] = "SSL",
+    [2] = "HYBRID",
+    [3] = "Undefined",
+    [4] = "RDSTLS",
+    [5] = "undef5",
+    [6] = "undef6",
+    [7] = "undef8",
+    [8] = "HYBRID-EX",
 	
 };
 
