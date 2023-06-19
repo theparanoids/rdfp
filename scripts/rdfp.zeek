@@ -48,7 +48,7 @@ redef negproto += {
     [6] = "undef6",
     [7] = "undef8",
     [8] = "HYBRID-EX",
-	
+	[0x10] = "RDSAAD"
 };
 
 event rdp_connect_request(c: connection, cookie: string) &priority=5
